@@ -13,3 +13,5 @@ script:
 - mvn clean install -B
 after_script:
 - cd ..
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
