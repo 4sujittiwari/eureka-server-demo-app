@@ -1,6 +1,6 @@
 language: java
-jdk: oraclejdk8
- 
+jdk: openjdk8
+sudo: true 
 script:
 - API_Discovery/mvnw clean install -B
 - customer/mvnw clean install -B
