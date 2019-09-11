@@ -1,4 +1,4 @@
-# Eureka-server-demo-app
+# Eureka-server-demo-app ![enter image description here](https://travis-ci.org/4sujittiwari/eureka-server-demo-app.svg?branch=master)
 A demo Spring boot application implementing the Eureka Server and client connectivity. Whole application is ready to be deployed on Docker
 
 This application will give you a taste of implementing your own Eureka Discovery Server with a client. With Netflix Eureka each client can simultaneously act as a server, to replicate its status to a connected peer. In other words, a client retrieves a list of all connected peers of a service registry and makes all further requests to any other services through a load-balancing algorithm.   
